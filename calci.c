@@ -15,7 +15,7 @@ float simple_calculator(float num1,char op, float num2)
         case '!':{
             if(num2==0)
                 {
-                    printf("Invalid Divisor '0'!");
+                    printf("Invalid Divisor '0'!. try again!");
                     return 0;
                 }
             else
